@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <ViewFlipper
+        android:id="@+id/viewflliper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/confirmation_code"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/white"
+                app:contentInsetLeft="0dp"
+                app:contentInsetStart="0dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/d_bottom_gray_line">
+
+
+                    <ImageButton
+                        android:id="@+id/Goback1"
+                        android:layout_width="@dimen/back_btn_width"
+                        android:layout_height="@dimen/back_btn_height"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitStart"
+                        android:src="@drawable/ic_back"
+                        android:tint="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_centerVertical="true"
+                        android:text="Reset"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/title"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+            </androidx.appcompat.widget.Toolbar>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/toolbar"
+                android:layout_margin="20dp"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/iv_back"
+                        android:text="Forgot password"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:justificationMode="inter_word"
+                        android:paddingTop="15dp"
+                        android:text="We'll email you a code to reset your password."
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/recover_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="30dp"
+                        android:backgroundTint="@color/transparent"
+                        android:hint="Email address"
+                        android:inputType="text"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/graycolor"
+                        android:textSize="14dp" />
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_below="@+id/main_div"
+                        android:background="@color/graycolor" />
+
+
+                    <Button
+                        android:id="@+id/btn_next"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/login_terms_condition_txt"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="40dp"
+                        android:clickable="false"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:text="Reset"
+                        android:textColor="@color/white"
+                        android:textSize="14dp"
+                        android:theme="@style/Button_style" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/white"
+                app:contentInsetLeft="0dp"
+                app:contentInsetStart="0dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/d_bottom_gray_line">
+
+
+                    <ImageButton
+                        android:id="@+id/Goback2"
+                        android:layout_width="@dimen/back_btn_width"
+                        android:layout_height="@dimen/back_btn_height"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitStart"
+                        android:src="@drawable/ic_back"
+                        android:tint="@color/black" />
+
+
+                </RelativeLayout>
+
+            </androidx.appcompat.widget.Toolbar>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/toolbar"
+                android:layout_margin="20dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Enter 4 digit Code"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:paddingBottom="15dp"
+                            android:textColor="@color/gray"
+                            android:id="@+id/edit_email"
+                            android:text="Your code was emailed to "
+                            android:textSize="14dp" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+
+                        <com.chaos.view.PinView
+                            android:id="@+id/et_code"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:cursorVisible="true"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/black"
+                            android:textSize="22dp"
+                            app:hideLineWhenFilled="false"
+                            app:itemCount="4"
+                            app:itemHeight="70dp"
+                            app:itemSpacing="10dp"
+                            app:itemWidth="65dp"
+                            app:lineColor="@color/gray"
+                            app:viewType="line" />
+
+                    </LinearLayout>
+
+
+                    <Button
+                        android:id="@+id/confirm_otp"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/login_terms_condition_txt"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="40dp"
+                        android:clickable="false"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:text="Next"
+                        android:textColor="@color/white"
+                        android:textSize="14dp"
+                        android:theme="@style/Button_style" />
+
+                    <RelativeLayout
+                        android:id="@+id/rl1_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="20dp"
+                        android:visibility="gone">
+
+
+                        <TextView
+                            android:id="@+id/tv1_id"
+                            android:layout_width="wrap_content"
+                            android:layout_height="48dp"
+                            android:textColor="@color/black"
+                            android:gravity="center_vertical"
+                            android:textSize="16dp" />
+
+
+                    </RelativeLayout>
+
+
+                    <TextView
+                        android:id="@+id/resend_code"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_toEndOf="@+id/or_id"
+                        android:text="Resend Code"
+                        android:textColor="@color/app_color"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/white"
+                app:contentInsetLeft="0dp"
+                app:contentInsetStart="0dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/d_bottom_gray_line">
+
+
+                    <ImageButton
+                        android:id="@+id/Goback3"
+                        android:layout_width="@dimen/back_btn_width"
+                        android:layout_height="@dimen/back_btn_height"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitStart"
+                        android:src="@drawable/ic_back"
+                        android:tint="@color/black" />
+
+
+                </RelativeLayout>
+
+            </androidx.appcompat.widget.Toolbar>
+
+
+            <RelativeLayout
+                android:id="@+id/main_rlt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/toolbar"
+                android:layout_margin="20dp"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:id="@+id/main_div"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/iv_back"
+                        android:text="Create password"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:justificationMode="inter_word"
+                        android:paddingTop="15dp"
+                        android:text="Use 8-20 characters from at least 2 categories: letters, numbers, special characters"
+                        android:textColor="@color/black" />
+
+
+                    <EditText
+                        android:id="@+id/ed_new_pass"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="30dp"
+                        android:backgroundTint="@color/transparent"
+                        android:hint="Password"
+                        android:inputType="text"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/graycolor"
+                        android:textSize="14dp" />
+
+
+                    <RelativeLayout
+                        android:id="@+id/line_below_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_below="@+id/main_div"
+                        android:background="@color/graycolor" />
+
+
+                    <Button
+                        android:id="@+id/change_password_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/login_terms_condition_txt"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="40dp"
+                        android:clickable="false"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:text="Login"
+                        android:textColor="@color/white"
+                        android:textSize="14dp"
+                        android:theme="@style/Button_style" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ViewFlipper>
+
+</FrameLayout>

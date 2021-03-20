@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:focusable="true"
+    tools:context=".ActivitesFragment.Accounts.Phone_F">
+
+
+    <RelativeLayout
+        android:id="@+id/main_rlt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:id="@+id/main_div"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+
+            <com.rilixtech.widget.countrycodepicker.CountryCodePicker
+                android:id="@+id/ccp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/country_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="@color/dimgray"
+                android:textSize="16dp" />
+
+            <View
+                android:id="@+id/line_beside_country"
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/country_code"
+                android:background="@color/graycolor" />
+
+            <EditText
+                android:id="@+id/phone_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="5dp"
+                android:layout_toRightOf="@+id/line_beside_country"
+                android:backgroundTint="@color/transparent"
+                android:hint="Phone Number"
+                android:inputType="phone"
+                android:textColor="@color/black"
+                android:textColorHint="@color/graycolor"
+                android:textSize="14dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/line_below_et"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/main_div"
+            android:background="@color/graycolor" />
+
+        <TextView
+            android:id="@+id/login_terms_condition_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line_below_et"
+            android:layout_marginTop="10dp"
+            android:justificationMode="inter_word"
+            android:paddingTop="15dp"
+            android:text="By signing up, you confirm that you agree to our Terms of \nUse and have read and understood our Privacy Policy.\nif you signup with SMS. SMS fee may apply"
+            android:textColor="@color/gray"
+            android:textSize="12dp" />
+
+
+        <Button
+            android:id="@+id/btn_send_code"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/login_terms_condition_txt"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="40dp"
+            android:clickable="false"
+            android:enabled="false"
+            android:gravity="center"
+            android:text="Send Code"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:theme="@style/Button_style" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,130 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/discovery_container"
+    android:background="@color/white"
+    tools:context="com.qboxus.musictok.ActivitesFragment.Discover_F">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/search_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            app:cardBackgroundColor="@color/lightgraycolor"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:paddingStart="10dp">
+
+                <ImageButton
+                    android:id="@+id/search"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_centerVertical="true"
+                    android:background="@color/transparent"
+                    android:padding="4dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_discovery_gray"
+                    android:tint="@color/dimgray" />
+
+                <EditText
+                    android:id="@+id/search_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/search"
+                    android:backgroundTint="@color/transparent"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:hint="Search"
+                    android:padding="7dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/darkgray"
+                    android:textSize="14dp" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <com.qboxus.musictok.SimpleClasses.TouchSafeSwipeRefreshLayout
+            android:id="@+id/swiperefresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/search_layout"
+            android:layout_marginTop="5dp">
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp">
+
+                    <RelativeLayout
+                        android:id="@+id/arc_viewpager"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp">
+
+                        <androidx.viewpager.widget.ViewPager
+                            android:id="@+id/viewPager"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="bottom|center_horizontal">
+
+                            <com.rd.PageIndicatorView
+                                android:id="@+id/pageIndicatorView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="5dp"
+                                android:visibility="visible"
+                                app:piv_animationType="worm"
+                                app:piv_dynamicCount="true"
+                                app:piv_interactiveAnimation="true"
+                                app:piv_radius="3dp"
+                                app:piv_selectedColor="@color/app_color"
+                                app:piv_unselectedColor="@color/graycolor"
+                                app:piv_viewPager="@id/viewPager" />
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recylerview"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/arc_viewpager"
+                        android:nestedScrollingEnabled="false" />
+
+                </RelativeLayout>
+
+            </ScrollView>
+        </com.qboxus.musictok.SimpleClasses.TouchSafeSwipeRefreshLayout>
+
+    </RelativeLayout>
+
+
+</FrameLayout>

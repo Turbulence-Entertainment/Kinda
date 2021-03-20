@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.shimmer:shimmer:0.4.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0b578e43f0736330db9111da69d9109d/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6d5e377927eb8a2b00c8d9e33e9f0dc1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0b578e43f0736330db9111da69d9109d/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0b578e43f0736330db9111da69d9109d/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0b578e43f0736330db9111da69d9109d/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6d5e377927eb8a2b00c8d9e33e9f0dc1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6d5e377927eb8a2b00c8d9e33e9f0dc1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6d5e377927eb8a2b00c8d9e33e9f0dc1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.shimmer/shimmer/0.4.0/6d2b9012194b2419190d681803cc684953e301f6/shimmer-0.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

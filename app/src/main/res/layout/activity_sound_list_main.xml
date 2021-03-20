@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id="@+id/SoundList_Main_A"
+    tools:context=".ActivitesFragment.SoundLists.SoundList_Main_A">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_weight="1"
+            android:background="@color/white"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/Goback"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:padding="5dp"
+                    android:background="@color/transparent"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/ic_white_cross"
+                    android:tint="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Add Sound"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/title"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar">
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/groups_tab"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="-1dp"
+                android:layout_weight="1"
+                android:background="@drawable/d_bottom_gray_line"
+                app:tabGravity="fill"
+                app:tabIndicatorColor="@color/black"
+                app:tabMode="fixed"
+                app:tabPaddingEnd="0dp"
+                app:tabPaddingStart="0dp"
+                app:tabSelectedTextColor="@color/black"
+                app:tabTextAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                app:tabTextColor="@color/dark_gray" />
+
+            <com.qboxus.musictok.Main_Menu.Custom_ViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/groups_tab"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"></com.qboxus.musictok.Main_Menu.Custom_ViewPager>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

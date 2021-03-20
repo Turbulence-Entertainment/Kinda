@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Search_Main_F"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    tools:context=".ActivitesFragment.Profile.Favourite_Main_F">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_weight="1"
+            android:background="@color/white"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/d_bottom_gray_line">
+
+                <ImageButton
+                    android:id="@+id/back_btn"
+                    android:layout_width="@dimen/back_btn_width"
+                    android:layout_height="@dimen/back_btn_height"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/transparent"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/ic_back"
+                    android:tint="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="Favourites"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/title"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/toolbar"
+            android:layout_marginStart="-1dp"
+            android:layout_weight="1"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="@color/app_color"
+            app:tabIndicatorHeight="3dp"
+            app:tabMode="fixed"
+            app:tabPaddingEnd="10dp"
+            app:tabPaddingStart="10dp"
+            app:tabSelectedTextColor="@color/app_color"
+            app:tabTextAppearance="@style/tab_text"
+            app:tabTextColor="@color/dark_gray" />
+
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tabs"></androidx.viewpager.widget.ViewPager>
+
+    </RelativeLayout>
+
+</FrameLayout>

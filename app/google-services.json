@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "276412660112",
+    "project_id": "kinda-app-84a08",
+    "storage_bucket": "kinda-app-84a08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276412660112:android:675ddb67d36283da9b1b15",
+        "android_client_info": {
+          "package_name": "com.kinda.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276412660112-ov51nn9t7c12qpi4ve1ufocm3frc6oie.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kinda.app",
+            "certificate_hash": "e5288da017c7372022f72c09b73b7f49ca80bd01"
+          }
+        },
+        {
+          "client_id": "276412660112-8cus8pm25mtlqo45pdaupce8hfids2m1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByfQkA05KpqBXPDjvB1UwpzYK1RwXLPjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276412660112-8cus8pm25mtlqo45pdaupce8hfids2m1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

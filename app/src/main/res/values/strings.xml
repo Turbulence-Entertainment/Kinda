@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Kinda</string>
+
+
+
+    
+    <string name="facebook_app_id">fb_id</string>
+    <string name="fb_login_protocol_scheme">fb(fb_id)</string>
+   
+
+
+    
+    <string name="google_web_client_id">276412660112-8cus8pm25mtlqo45pdaupce8hfids2m1.apps.googleusercontent.com</string>
+    
+
+    
+    <string name="gif_api_key">gif_api_key_here</string>
+     
+
+
+
+    <string name="ad_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="my_Interstitial_Add">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="banner_ad">ca-app-pub-3940256099942544/6300978111</string>
+
+
+    <string name="request_verification">Request Verification</string>
+    <string name="apply_for_tic_tic_verification">Apply for Tic Tic Verification</string>
+    <string name="upper_body">A verified badge is check that appears next to an \ntic tic accounts name to indicate that the \naccount is the authentic presence of notable \npublic figure , celebrity, global brand or entity it \nrepresents.</string>
+    <string name="upper_body_below">Submitting a request for verification \ndoes not guarantee that your account will be verified</string>
+    <string name="lower_body">We require a goverment-issued photo ID that shows \nyour name and date of birth(e.g driver\'s license.\npassport or national identification card) or official \nbusiness documents(tax filing, recent utility bill, article of \nincorporation) in order to review your request.</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="version">2.2</string>
+    <string name="device">android</string>
+
+    <string name="delete_function_not_available_in_demo">Delete Function not available in demo</string>
+    <string name="privacy_function_not_available_in_demo">Privacy Setting Function not available in demo</string>
+    <string name="friends">\@Friends</string>
+    <string name="hashtags">#Hashtags</string>
+
+
+    <string name="music_usage_confirmation">By checking this box,You confirm that either
+        (A)there is no copyrighted music included in this video, or (B) you have received all necessary rights
+        (including publishing rights and master recording rights) to use any music included in this video on the tik tok platform.
+    </string>
+
+    <string name="confirm_either">if you cannot confirm either (A) or (B),please uncheck this box.Any audio included in the video will be removed.
+    </string>
+
+
+    <string name="reset_text">if you\'re forgotten your password.enter your e-mail and we\'ll send you an e-mail telling how to recover it.</string>
+    <string name="otp_msg">Please Enter The Code Which Is Send To You By Mail</string>
+    <string name="an_email_sent">\"An email has been sent to : \"</string>
+    <string name="shortly">.You should receive it shortly.</string>
+
+
+    <!--String for no data -->
+    <string name="whoops">Whoops!</string>
+    <string name="no_fav_sound">No sound found sofar.</string>
+    <string name="no_fav_video">There is no favourite video so far.</string>
+    <string name="no_liked_video">There is no liked videos so far.</string>
+    <string name="no_private_video">There is no videos so far.</string>
+    <string name="no_hashtag">There is no data so far.</string>
+    <string name="no_comment">Be the first to comment!</string>
+    <string name="no_following">When you follow people. you\'ll see them here</string>
+    <string name="not_inbox">There is no inbox you have so far</string>
+    <string name="no_notification">There is no notifications you have so far</string>
+    <string name="no_search">There is no data so far.</string>
+
+</resources>

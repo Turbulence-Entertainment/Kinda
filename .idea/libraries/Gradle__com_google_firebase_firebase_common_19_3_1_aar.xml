@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-common:19.3.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ecb4fd29899c3ae818692084b7cfad6c/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ecb4fd29899c3ae818692084b7cfad6c/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ecb4fd29899c3ae818692084b7cfad6c/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/167e21f38a1db7399786fb531f5eb8ab/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/167e21f38a1db7399786fb531f5eb8ab/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/167e21f38a1db7399786fb531f5eb8ab/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-common/19.3.1/b4a08fdff05502da113831b9794d9536d198d88/firebase-common-19.3.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

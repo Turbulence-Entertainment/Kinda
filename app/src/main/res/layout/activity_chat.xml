@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+     android:id="@+id/Chat_F"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/chat_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            android:layout_marginTop="61dp"
+            android:background="@color/white"
+            android:visibility="visible">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/chatlist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/typeindicator"></androidx.recyclerview.widget.RecyclerView>
+
+
+            <LinearLayout
+                android:id="@+id/typeindicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/bottom_layout"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/ic_type_indicator"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/gif_layout"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_above="@+id/bottom_layout"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <com.chauthai.overscroll.RecyclerViewBouncy
+                    android:id="@+id/gif_recylerview"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp" />
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bottom_layout"
+                android:layout_alignParentBottom="true">
+
+            <RelativeLayout
+                android:id="@+id/writechatlayout"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/editfield_releative_border"
+                android:visibility="visible">
+
+                <ImageButton
+                    android:id="@+id/uploadimagebtn"
+                    android:layout_width="32dp"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:background="@color/transparent"
+                    android:padding="4dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_image_icon" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/write_layout"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginEnd="50dp"
+                    android:layout_toRightOf="@+id/uploadimagebtn"
+                    android:background="@drawable/top_bottom_border_line">
+
+                    <EditText
+                        android:id="@+id/msgedittext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@+id/upload_gif_btn"
+                        android:backgroundTint="@android:color/transparent"
+                        android:hint="Send Message Here..."
+                        android:paddingLeft="10dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/gray"
+                        android:textSize="14sp" />
+
+                    <ImageButton
+                        android:id="@+id/upload_gif_btn"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@color/transparent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_gif_image_gray" />
+
+                </RelativeLayout>
+
+
+                <com.devlomi.record_view.RecordView
+                    android:id="@+id/record_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toStartOf="@+id/mic_btn"
+                    app:slide_to_cancel_arrow="@drawable/recv_ic_arrow"
+                    app:slide_to_cancel_arrow_color="#000000"
+                    app:slide_to_cancel_bounds="0dp"
+                    app:slide_to_cancel_margin_right="10dp"
+                    app:counter_time_color="@color/app_color" />
+
+                <com.devlomi.record_view.RecordButton
+                    android:id="@+id/mic_btn"
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
+                    android:layout_margin="4dp"
+                    android:visibility="visible"
+                    android:background="@drawable/d_round_mic_background"
+                    android:scaleType="centerInside"
+                    app:mic_icon="@drawable/recv_ic_mic_white" />
+
+
+
+                <ImageButton
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/ic_send_round"
+                    android:id="@+id/sendbtn"
+                    android:scaleType="fitCenter"
+                    android:visibility="gone"
+                    android:paddingEnd="4dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:background="@color/transparent"
+                    android:layout_alignParentRight="true"/>
+
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+
+        </RelativeLayout>
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_weight="1"
+            android:background="@color/white"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/d_bottom_gray_line">
+
+                <ImageButton
+                    android:id="@+id/Goback"
+                    android:layout_width="@dimen/back_btn_width"
+                    android:layout_height="@dimen/back_btn_height"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/ic_back"
+                    android:tint="@color/black" />
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/profileimage"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/Goback"
+                    app:roundAsCircle="true"
+                    fresco:placeholderImage="@drawable/ic_user_icon" />
+
+                <TextView
+                    android:id="@+id/username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/profileimage"
+                    android:text="Chat"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+
+                <ImageButton
+                    android:id="@+id/alert_btn"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:background="@color/transparent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_not_send_message" />
+
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+    </RelativeLayout>
+
+</FrameLayout>

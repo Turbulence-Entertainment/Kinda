@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.akexorcist:RoundCornerProgressBar:2.0.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/07b00d2588049d13600b1f9b7cbf7894/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/07b00d2588049d13600b1f9b7cbf7894/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/07b00d2588049d13600b1f9b7cbf7894/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/049e1a1e535bf699b910d5f001a654fc/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/049e1a1e535bf699b910d5f001a654fc/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/049e1a1e535bf699b910d5f001a654fc/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.akexorcist/RoundCornerProgressBar/2.0.3/64ea43bf7373977c3fdcc9edf915145a5c43c31a/RoundCornerProgressBar-2.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

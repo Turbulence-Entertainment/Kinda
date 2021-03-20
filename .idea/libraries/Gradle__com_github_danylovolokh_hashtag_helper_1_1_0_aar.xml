@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.danylovolokh:hashtag-helper:1.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/372f1378e0d5eeda441cc959a4bd0ab0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/372f1378e0d5eeda441cc959a4bd0ab0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/372f1378e0d5eeda441cc959a4bd0ab0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/80eac6c0a4de60efa7729255a3b0f836/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/80eac6c0a4de60efa7729255a3b0f836/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/80eac6c0a4de60efa7729255a3b0f836/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.danylovolokh/hashtag-helper/1.1.0/a829e13d3a604ecc986f80ec59b354afe3703926/hashtag-helper-1.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.danylovolokh/hashtag-helper/1.1.0/4dca9a053f3017c812efe14d2312018e291ee43/hashtag-helper-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

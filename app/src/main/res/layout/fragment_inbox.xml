@@ -1,0 +1,130 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Inbox_F"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.qboxus.musictok.ActivitesFragment.Inbox_F">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bannerad"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_weight="1"
+                android:background="@color/white"
+                app:contentInsetLeft="0dp"
+                app:contentInsetStart="0dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/d_bottom_gray_line">
+
+
+                    <ImageButton
+                        android:id="@+id/back_btn"
+                        android:layout_width="@dimen/back_btn_width"
+                        android:layout_height="@dimen/back_btn_height"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:background="@color/transparent"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_back"
+                        android:tint="@color/black" />
+
+                    <TextView
+                        android:id="@+id/username"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:text="Inbox"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/title"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+            </androidx.appcompat.widget.Toolbar>
+
+            <com.chauthai.overscroll.RecyclerViewBouncy
+                android:id="@+id/inboxlist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/toolbar"
+                android:layout_marginTop="5dp">
+
+            </com.chauthai.overscroll.RecyclerViewBouncy>
+
+
+            <RelativeLayout
+                android:id="@+id/no_data_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/toolbar"
+                android:background="@color/white"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/whoops"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_no_job"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/whoops"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/dimgray"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/whoops"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginRight="55dp"
+                    android:text="@string/not_inbox"
+                    android:textAlignment="center"
+                    android:textColor="@color/dimgray"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+            <ProgressBar
+                android:id="@+id/pbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_centerInParent="true" />
+
+        </RelativeLayout>
+
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/bannerad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad" />
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:id="@+id/title"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="see all"
+            android:textSize="13dp"
+            android:id="@+id/see_all_btn"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/dark_gray"
+            android:padding="5dp"
+            android:layout_marginEnd="10dp"/>
+
+    </RelativeLayout>
+
+
+       <androidx.recyclerview.widget.RecyclerView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:minHeight="100dp"
+         android:id="@+id/horizontal_recylerview"/>
+
+
+</LinearLayout>

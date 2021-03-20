@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.hendraanggrian.appcompat:socialview-commons:0.3-rc1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c9720b70dfceb2bdbbbbf2e0e76f4580/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c9720b70dfceb2bdbbbbf2e0e76f4580/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c9720b70dfceb2bdbbbbf2e0e76f4580/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e425b9dcdd20db366f2c19a2258f6c5f/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e425b9dcdd20db366f2c19a2258f6c5f/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e425b9dcdd20db366f2c19a2258f6c5f/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hendraanggrian.appcompat/socialview-commons/0.3-rc1/e6b7fd66f634277914106128ec02fdfe75466797/socialview-commons-0.3-rc1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

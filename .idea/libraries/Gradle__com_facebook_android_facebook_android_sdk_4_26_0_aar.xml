@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.android:facebook-android-sdk:4.26.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/11865c32309ff1d1afb9a83b281124f0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/11865c32309ff1d1afb9a83b281124f0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/11865c32309ff1d1afb9a83b281124f0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/81bcce59050b1393449954f80fb7b74d/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/81bcce59050b1393449954f80fb7b74d/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/81bcce59050b1393449954f80fb7b74d/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.android/facebook-android-sdk/4.26.0/7c7a52fa6a9a4446f6bea7c211bdaffbab15f3bb/facebook-android-sdk-4.26.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

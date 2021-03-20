@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.giphy.sdk:core:1.0.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dd400d4306cf84b471675c1bb2b74d69/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dd400d4306cf84b471675c1bb2b74d69/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dd400d4306cf84b471675c1bb2b74d69/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/87242e57fca0a705803321c991c0458a/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/87242e57fca0a705803321c991c0458a/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/87242e57fca0a705803321c991c0458a/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

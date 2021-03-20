@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/btn_add_to_fav"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:minHeight="50dp">
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="5dp"
+            android:scaleType="fitCenter"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_fav"
+            android:tint="@color/black" />
+
+        <TextView
+            android:id="@+id/fav_unfav_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="30dp"
+            android:hint="Username"
+            android:text="Add to Favourites"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/d_bottom_gray_line" />
+
+
+    <RelativeLayout
+        android:id="@+id/btn_not_insterested"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:minHeight="50dp">
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_not_insterted"
+            android:tint="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="30dp"
+            android:hint="Username"
+            android:text="Not Insterested"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/btn_report"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:minHeight="50dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/d_bottom_gray_line" />
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_report"
+            android:tint="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="30dp"
+            android:hint="Username"
+            android:text="Report"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/btn_delete"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:minHeight="50dp"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/d_bottom_gray_line" />
+
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_delete_line" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="30dp"
+            android:text="Delete"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

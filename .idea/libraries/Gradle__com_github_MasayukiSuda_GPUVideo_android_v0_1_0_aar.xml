@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.MasayukiSuda:GPUVideo-android:v0.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/51bca69758382355185169c9dabf2950/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/51bca69758382355185169c9dabf2950/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/51bca69758382355185169c9dabf2950/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4ac46d5dbfef90727ea3cfb14a236d4c/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4ac46d5dbfef90727ea3cfb14a236d4c/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4ac46d5dbfef90727ea3cfb14a236d4c/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.MasayukiSuda/GPUVideo-android/v0.1.0/b72781e217cc8033fd732fdd65d3852e41fb055c/GPUVideo-android-v0.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

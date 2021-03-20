@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: life.knowledge4:k4l-video-trimmer:1.1.3-SNAPSHOT@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cb5621f7fdb0eecf0d3e97e970669832/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cb5621f7fdb0eecf0d3e97e970669832/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cb5621f7fdb0eecf0d3e97e970669832/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1bbb5c3280ddd263597c492413b39ff4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1bbb5c3280ddd263597c492413b39ff4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1bbb5c3280ddd263597c492413b39ff4/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/life.knowledge4/k4l-video-trimmer/1.1.3-SNAPSHOT/5ea291aaf20a0ea30d9d9b27deea71d817ef1da7/k4l-video-trimmer-1.1.3-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

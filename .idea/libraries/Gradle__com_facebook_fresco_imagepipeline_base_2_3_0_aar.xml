@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.fresco:imagepipeline-base:2.3.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/328defe7106b891215fb9dde76dddf9a/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/65d77c3af661b4aa436b98932de157d8/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/328defe7106b891215fb9dde76dddf9a/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/328defe7106b891215fb9dde76dddf9a/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/328defe7106b891215fb9dde76dddf9a/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/65d77c3af661b4aa436b98932de157d8/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/65d77c3af661b4aa436b98932de157d8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/65d77c3af661b4aa436b98932de157d8/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/imagepipeline-base/2.3.0/5a9bf9705d8356b939e957a523e43c8d7bb6ce66/imagepipeline-base-2.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

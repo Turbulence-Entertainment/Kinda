@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.a914-gowtham:Android-video-trimmer:1.0.9@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8543b518b8adaf025fe821fa1f60410c/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8543b518b8adaf025fe821fa1f60410c/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8543b518b8adaf025fe821fa1f60410c/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/312669ad3ff2f060c9889ee26ecde964/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/312669ad3ff2f060c9889ee26ecde964/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/312669ad3ff2f060c9889ee26ecde964/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.a914-gowtham/Android-video-trimmer/1.0.9/3a5feaa132b28cea4432bfacefa4a167ccdb67cf/Android-video-trimmer-1.0.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

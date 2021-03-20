@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.gmail.samehadar:iosdialog:1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/86d6ce7460e1b108c82206d47962a8d3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/86d6ce7460e1b108c82206d47962a8d3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/86d6ce7460e1b108c82206d47962a8d3/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e772d496732275f43ff630c38169793b/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e772d496732275f43ff630c38169793b/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e772d496732275f43ff630c38169793b/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gmail.samehadar/iosdialog/1.0/f756b9c1cc9c051d751f308f2b905b61277e3bea/iosdialog-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
